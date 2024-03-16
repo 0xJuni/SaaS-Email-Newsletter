@@ -105,8 +105,8 @@ const PricingCard = ({ active }: { active: string }) => {
             handleSubscription({
               price:
                 active === "Monthly"
-                  ? "price_1OnaWFSA1WAzNgKlsGN6K4ZW"
-                  : "price_1Onbt8SA1WAzNgKlyrXYlJBG",
+                  ? "price_1OskRTA74yZrIYa1bE24YHcI"
+                  : "price_1OslIUA74yZrIYa1hgE5ZPnC",
             })
           }
         >
@@ -114,7 +114,7 @@ const PricingCard = ({ active }: { active: string }) => {
         </Button>
         <p className="pt-1 opacity-[.7] text-center">
           30-day free trial of Scale features, then $
-          {active === "Monthly" ? "42" : "49"}/mo
+          {active === "Monthly" ? "49" : "42"}/mo
         </p>
       </div>
 
